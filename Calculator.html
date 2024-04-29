@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    
+    <div class="main">
+            <input class="input" type="text" id="calculationScreen" disabled>
+            <br>
+            <div class="wh">
+                <button onclick="clearCalc()">C</button>
+            </div>  
+            <div class="in2">
+                <button onclick="appendToCalculation('7')">7</button>
+                <button onclick="appendToCalculation('8')">8</button>
+                <button onclick="appendToCalculation('9')">9</button>
+                <button onclick="appendToCalculation('+')">+</button>
+                <button onclick="appendToCalculation('4')">4</button>
+                <button onclick="appendToCalculation('5')">5</button>
+                <button onclick="appendToCalculation('6')">6</button>
+                <button onclick="appendToCalculation('-')">-</button>
+                <button onclick="appendToCalculation('1')">1</button>
+                <button onclick="appendToCalculation('2')">2</button>
+                <button onclick="appendToCalculation('3')">3</button>     
+                <button onclick="appendToCalculation('*')">*</button>
+                <button onclick="appendToCalculation('/')">/</button>
+                <button onclick="appendToCalculation('0')">0</button>
+                <button onclick="appendToCalculation('.')">.</button>
+                <button onclick="calculate()">=</button>
+         </div>
+            </div>         
+    <script src="calc.js"> </script>
+</body>
+</html>
